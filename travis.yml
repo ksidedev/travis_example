@@ -1,0 +1,11 @@
+deploy:
+      - provider: s3
+        ⋮ # rest of S3 deployment for MyApp.zip
+      - provider: codedeploy
+        access_key_id: "AKIAIVUG7MRCWMNCND3A"
+        secret_access_key: "AKIAIGIXVFIMCF6MAZVA"
+        bucket: "S3 Bucket"
+        key: latest/Travis_example.zip
+        application: MyApp
+        deployment_group: MyDeploymentGroup
+        region: Sydney
