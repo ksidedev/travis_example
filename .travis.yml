@@ -1,0 +1,12 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAIVUG7MRCWMNCND3A
+  secret_access_key:
+    secure: iJ/DZ1Cne2ZDJH4EVKjIyM4YG/HR0jCOUNr2OYpj85hv5iRAdIiD8pbowkm9OOeZKKb6DzlYvCKCgNtp8AEz0W1sSJpe6Vzl2l6XnaMqC7Aebe7hzIC9TvIoHigmBm89XxZ2ICRBchpfbN/nJhdtnJzxpVLnkw8+meg/u43JvzYD53R3HyXIUBXQuK8berWXNefEuoLj4g+KJq5UeL/LFhy5T6JeKGH37SI7GJfDrLKdVDgaOxYfrSSn2sOsvRvqA7Kv1zMG7ZtYbjq9WFx43a8fmlETO6OUMthT5hsa2Bbg0xjiZISUG5wlE83gqX3HegB4Lr2rq3hhkfnR9a9jGMgKo+hJyRF5HaCG7x/3q3v53bVWeLRunDV/Ur4J/ReyiBhMEBc3lR8HeA6E4K8LXI41KDEMp031uHNpojFDPX8oVvg5I6Bsy7f4WHoc2vm/0YYQeSFuDxZM4ybZ0I0Umn4ZL5zmsxT7Y27SCmt1gjRu+9qFPPi1tG0MaP1MGwvYoqC9shWKXaANLBhextAUQkWSmOK0b0Gj7ZU4Gdt1Bno6CvMAngbwUEowLfvhOI8fKGR9meIrBzJqlzIGwdGj4+nKjojIM9rTCbl93Yp9dFfW3dDkcTBwhVx/nCvWl7YZIh7AK2MMt6WoZBN14MrwSTxbAxR3ekvj4+1w1PkCdpA=
+  bucket: ksidedevtravisexample
+  local-dir: /Users/abeckley/Desktop/Travis_example
+  acl: ''
+  on:
+    repo: ksidedev/travis_example
+  region: Sydney
+  skip_cleanup: true
